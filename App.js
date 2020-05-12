@@ -1,8 +1,8 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import { HabitDetail } from "./HabitDetail";
-import { HabitList } from "./HabitList";
+import { HabitDetail } from "./src/HabitDetail";
+import { HabitList } from "./src/HabitList";
 
 const Stack = createStackNavigator();
 

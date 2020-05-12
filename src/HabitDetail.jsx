@@ -12,8 +12,8 @@ export const HabitDetail = ({ route, navigation }) => {
           style={styles.icon}
           source={
             item.done
-              ? require("./assets/habitDone.png")
-              : require("./assets/habitInProgress.png")
+              ? require("../assets/habitDone.png")
+              : require("../assets/habitInProgress.png")
           }
         />
         <Text>{item.subtitle}</Text>
@@ -22,13 +22,13 @@ export const HabitDetail = ({ route, navigation }) => {
         <Image
           style={styles.image}
           resizeMode={"contain"}
-          source={require("./assets/progressFull.png")}
+          source={require("../assets/progressFull.png")}
         />
         <Text style={styles.text}>{"No skipped days since added"}</Text>
         <Image
           style={styles.image}
           resizeMode={"contain"}
-          source={require("./assets/progressProgressing.png")}
+          source={require("../assets/progressProgressing.png")}
         />
         <Text style={styles.text}>{"6 more days to form a habit!"}</Text>
       </View>

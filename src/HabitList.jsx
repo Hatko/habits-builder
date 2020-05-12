@@ -52,8 +52,8 @@ export const HabitList = () => {
               style={styles.image}
               source={
                 item.done
-                  ? require("./assets/habitDone.png")
-                  : require("./assets/habitInProgress.png")
+                  ? require("../assets/habitDone.png")
+                  : require("../assets/habitInProgress.png")
               }
             />
           }
